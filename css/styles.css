@@ -1,169 +1,106 @@
-:root {
-    --color-light: #F4F4FD;
-    --color-dark: #2e2f42;
-    --color-primary: #4d5ae5;
-    --color-accent: #404bbf;
-}
-
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4FD;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul, ol {
-    list-style-type: none;
-}
-
-button {
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-}
-
-/* #region Header */
 .header-page {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
+    padding: 20px;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-dark);
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
-.logo-style {
-    color: var(--color-primary);
+.nav-list {
+    list-style: none;
+    padding: 0;
 }
 
-.nav-list {}
-
-.nav-item {}
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
 
 .nav-item-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-dark);
+    text-decoration: none;
+    color: #2e2f42;
 }
 
-.nav-item-link:hover,
-.nav-item-link:focus {
-    color: var(--color-accent);
+.contact-info {
+    margin-top: 10px;
 }
 
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-/* #endregion */
-
-/* #region Hero */
 .hero {
-    background-color: var(--color-dark);
+    text-align: center;
+    padding: 50px 0;
 }
 
 .hero-title {
-    font-weight: 700;
-    font-size: 36 px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #fff;
+    font-size: 36px;
+    line-height: 1.2;
 }
 
 .hero-btn {
-    padding: 15px 30px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background-color: var(--color-primary);
+    padding: 10px 20px;
+    background-color: #4d5ae5;
+    color: #FFFFFF;
     border: none;
     cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: var(--color-accent);
-}
-
-/* #endregion */
-
-/* #region Section Titles */
 .section-title {
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 40px;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #2e2f42;
 }
 
-.feature-title,
-.team-member-name,
-.portfolio-title {
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 24px;
+    color: #2e2f42;
+}
+
+.feature-description {
+    line-height: 1.5;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member-name {
     font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--color-dark);
+    color: #2e2f42;
 }
 
-.feature-description,
-.team-member-role,
-.portfolio-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.team-member-role {
+    color: #2e2f42;
 }
 
-/* #endregion */
-
-/* #region Footer */
 .footer {
-    background-color: var(--color-dark);
+    background-color: #FFFFFF;
     text-align: center;
-    padding: 30px;
+    padding: 20px 0;
 }
 
-.footer-logo {
-    color: var(--color-primary);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.footer-description {
-    color: var(--color-light);
+.footer-text {
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-
-/* #endregion */
