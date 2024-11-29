@@ -1,3 +1,7 @@
+:root {
+    --color-light: #F4F4FD;
+}
+
 body {
     font-family: "Roboto", "Raleway", sans-serif;
 }
@@ -30,6 +34,10 @@ button {
 }
 
 .logo-style {
+    color: #4d5ae5; 
+}
+
+.studio {
     color: #4d5ae5; 
 }
 
@@ -67,10 +75,10 @@ button {
 }
 
 .hero-btn {
-    font-weight: 500;
+    padding: 15px 30px;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     color: #fff;
     background-color: #4d5ae5;
 }
@@ -80,14 +88,10 @@ button {
     background-color: #404bbf;
 }
 
-/* #endregion */
-
 /* #Our Team section */
 .our-team {
     background-color: #f4f4fd;
 }
-
-/* #endregion Our Team section */
 
 /* #Footer */
 .footer {
@@ -101,11 +105,11 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.description-text {
+.footer-description {
     line-height: 1.5;
-    color: var(--color-light, #F4F4FD); 
+    color: var(--color-light); 
     letter-spacing: 0.02em;
 }
