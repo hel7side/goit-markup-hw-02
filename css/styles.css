@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
 }
@@ -44,10 +44,6 @@ button {
     color: var(--color-primary);
 }
 
-.studio {
-    color: var(--color-primary);
-}
-
 .nav-list {}
 
 .nav-item {}
@@ -65,6 +61,18 @@ button {
     color: var(--color-accent);
 }
 
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
 /* #endregion */
 
 /* #region Hero */
@@ -74,20 +82,24 @@ button {
 
 .hero-title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #fff;
 }
 
 .hero-btn {
     padding: 15px 30px;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     color: #fff;
     background-color: var(--color-primary);
+    border: none;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -95,45 +107,40 @@ button {
     background-color: var(--color-accent);
 }
 
-/* #Our Team section */
-.our-team {
-    background-color: var(--color-light);
-}
+/* #endregion */
 
+/* #region Section Titles */
 .section-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    font-weight: 700;
     letter-spacing: 0.02em;
-    color: var(--color-dark);
-    text-transform: uppercase;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
 }
 
-.features-list, .team-list, .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.feature-item, .team-member, .portfolio-item {
-    width: 300px;
-}
-
-.feature-item h3, .team-member h3, .portfolio-item h3 {
+.feature-item h3,
+.team-member h3,
+.portfolio-item h3 {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--color-dark);
 }
 
-.feature-item p, .team-member p, .portfolio-item p {
+.feature-item p,
+.team-member p,
+.portfolio-item p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-/* Footer */
+/* #endregion */
+
+/* #region Footer */
 .footer {
     background-color: var(--color-dark);
     text-align: center;
@@ -142,10 +149,18 @@ button {
 
 .footer-logo {
     color: var(--color-primary);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-description {
-    color: #f4f4fd;
+    color: var(--color-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* #endregion */
