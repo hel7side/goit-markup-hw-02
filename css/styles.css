@@ -18,6 +18,7 @@ button {
 .header-page {
 }
 .nav-page {
+
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -51,10 +52,24 @@ button {
     color: #2e2f42;
 }
 
+.footer-adr {
+    font-style:normal;
+}
+
 .nav-item-link:hover,
 .nav-item-link:focus {
     color: #404bbf;
 }
+
+.contact-text {
+    color: #434455;
+}
+
+.contact-text:hover,
+.contact-text:focus {
+    color: #404bbf;
+}
+
 
 /* #endregion */
 
