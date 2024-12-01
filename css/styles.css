@@ -136,6 +136,14 @@ button {
     text-transform:capitalize
 }
 
+.team-list {
+    background-color: #ffffff;
+}
+
+.team-list-item {
+
+}
+
 .our-team-title {
     font-weight: 700;
     font-size: 36px;
