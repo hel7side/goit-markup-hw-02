@@ -133,6 +133,7 @@ button {
 
 .our-team {
     background-color: #f4f4fd;
+    text-transform:capitalize
 }
 
 .our-team-title {
